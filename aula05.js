@@ -17,7 +17,7 @@ let cs = 'Coréia do Sul';
 let sl = 'Seul';
 let paisesOrientais = `${ch}, ${jp} e ${cs} são países Orientais, suas Capitais são respectivamente, ${peq}, ${tq} e ${sl}.`
 
-console.log(paisesOrientais);
+//console.log(paisesOrientais);
 
 //Tarefa(2 - Dados Bancários)
 let cod = 'Código do Banco:';
@@ -30,8 +30,14 @@ let nr = 'Numero da Conta:';
 let no = '012345-43'
 let dadosBancarios = `Para acessarmos sua conta precisamos das seguintes informações, ${cod} ${nm}, ${ag} ${nu}, ${tc} ${cp} e ${nr} ${no}.`
 
-console.log(dadosBancarios);
+//console.log(dadosBancarios);
 
 //Tarefa(3 - Renda Familiar)
-let 
+let mrd = 'Marido';
+let esp = 'Esposa';
+let fnt = 5500 ;
+let rnd = 3800 ;
+let rendaFamiliar = `Renda familiar ${mrd} com ${fnt} e ${esp}, com ${rnd}.`
+
+console.log(rendaFamiliar);
 
