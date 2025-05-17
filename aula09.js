@@ -9,9 +9,7 @@ const Carta = {
 };
 console.log(`Meu personagem se chama:${Carta.nome}`);
 
-const Fazenda = {
-    
-};
+
 
 
 
