@@ -8,13 +8,13 @@ function changeImage() {
     const currentSrc = img.getAttribute("src");//aqui pegamos o atributo SRC da imagem, reponsãvel pela alteração da img.
 
     if (currentSrc === "imagem01.png") { //Se (if) a origem atual da imagem for igual a "imagem01.png"
-        img.setAttribute("src", "imagem02.png") //Usando o setAttribute vamos modificar o valor do src, especificando a outra img
-        img.setAttribute("alt", "imagem ");
+        img.setAttribute("src", "imagem01.jpg") //Usando o setAttribute vamos modificar o valor do src, especificando a outra img
+        img.setAttribute("alt", "imagem02.jpg");
 
     }else{
         //Se não, fazer o processo inverso basicamente
-        img.setAttribute("src", "imagens/imagem01.jpgimagem01.png");
-        img.setAttribute("alt", "imagens/imagem01.jpgcasa moderna");
+        img.setAttribute("src", "imagem02.jpg");
+        img.setAttribute("alt", "imagem01.jpg");
     }
 }
 //if = se a condição for válida execute algo
