@@ -11,13 +11,13 @@ console.log(investimentoMensal);
 console.log(`O valor investido no mês de Março foi: ${investimentoMensal[2]}`);
 
 
-const investimentoAnual = [
+const controleDeContas = [
    'aluguel', //0 // Janeiro
     'água', //1 //Fevereiro
     'luz', //2 //Março
 ]
-console.log(investimentoAnual);
-console.log(`a conta paga de Janeiro foi: ${investimentoAnual[2]}`)
+console.log(controleDeContas);
+console.log(`a conta paga de Janeiro foi: ${controleDeContas[2]}`)
 
 
 const cars = [

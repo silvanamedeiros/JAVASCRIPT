@@ -15,3 +15,5 @@ console.log(`Meu personagem se chama:${Carta.nome}`);
 
 
 
+
+
