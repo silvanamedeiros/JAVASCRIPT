@@ -11,3 +11,10 @@ function tornarQuadrado() {
     meuElemento.classList.remove("circle");
 }
 
+function alternarFormato() {
+    meuElemento.classList.toggle("circle");
+    meuElemento.classList.toggle("square");
+}
+
+// toggle é reponsável por verificar o elem atual, como se fosse um vigia
+
