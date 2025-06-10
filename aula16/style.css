@@ -42,7 +42,7 @@ header a {
 }
 
 .carousel-text {
-    position: absolute;/*posiciona o elem de forma absoluta dentro do container pai com  position
+    position: absolute;/*posiciona o elem de forma absoluta dentro do container pai com  position*/
     top: 50%;
     transform: translate(-50%, -50%);/*centraliza o elem exatamente no meio do container*/
     color: #fff;
