@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #111;
+
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+/*stilizando a section*/
+.swiper{
+    height: 35rem;
+    position: relative;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-text {
+    position: absolute;/*posiciona o elem de forma absoluta dentro do container pai com  position
+    top: 50%;
+    transform: translate(-50%, -50%);/*centraliza o elem exatamente no meio do container*/
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1.25rem;
+}
+
+.caixa-01 {
+    background-image: url(imagem/mountain-9024209_1280.jpg);
+}
+
+.caixa-02 {
+    background-image: url(imagem/lake-6641880_1280.jpg);
+}
+
+.caixa-03 {
+    background-image: url(imagem/bird-6559677_1280.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
