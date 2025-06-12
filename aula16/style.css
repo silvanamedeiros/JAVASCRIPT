@@ -42,12 +42,16 @@ header a {
 }
 
 .carousel-text {
-    position: absolute;/*posiciona o elem de forma absoluta dentro do container pai com  position*/
+    position: absolute;/*posiciona o elem. de forma absoluta dentro do container pai com  position relative*/
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);/*centraliza o elem exatamente no meio do container*/
-    color: #fff;
+    color: #383232;
     text-align: center;
     z-index: 10;
+    background-color: rgba(139, 134, 134, 0.377);
+    padding: 1.2rem;
+    border-radius: 3.5rem;
 }
 
 .carousel-text h1 {
